@@ -6,7 +6,7 @@ Standalone MakeGood website: `index.html` lives at the repository root. Publishi
 
 ## Structure and local preview
 
-16 HTML pages: six main pages, nine service pages in `services/`, and `privacy.html`. Assets live at the root. Current pages use `site.js` and `service-navigation.js`; retained historical scripts are not generators for the current site. No build or npm install is required.
+16 HTML pages: six main pages, nine service pages in `services/`, and `privacy.html`. Assets live at the root. Current pages use `site.js` and `service-navigation.js`. Obsolete preview scripts and styles were removed during the public-sharing review. No build or npm install is required.
 
 Run `python3 -m http.server 8000` from this directory and open http://localhost:8000. Check navigation, service filtering, mobile menu, portraits, privacy links, and links from service pages. Do not submit the production contact form during routine checks; intercept requests in automated tests.
 
@@ -14,10 +14,10 @@ Run `python3 -m http.server 8000` from this directory and open http://localhost:
 
 Open this repository's **Settings → Pages**. Choose **Deploy from a branch**, **main**, and **/ (root)**, then save. `.nojekyll` supports direct static publishing.
 
-Expected preview URL once hosting is enabled:
+Current published site:
 https://backwardssdrow-source.github.io/makegood-site/
 
-The repository is private; Pages availability depends on the account plan. If unavailable, use hosting that supports private repositories or deliberately review a visibility change. Uploading files alone does not enable hosting. Verify the homepage and every service page before changing DNS.
+The repository is public and GitHub Pages is enabled. The 16 pages and their assets were reviewed before sharing the standalone site link.
 
 ## Connect makegoodco.com
 
@@ -43,7 +43,9 @@ Private tracker IDs, credentials, and notification configuration belong in the p
 - Site copied from `backwardssdrow-source/pac-site`, branch `gh-pages`, directory `makegood/`, to this repository's root.
 - Canonical and sharing URLs updated to the standalone preview base.
 - Original PAC deployment remains available during cutover.
-- Pending: hosting activation, domain DNS/HTTPS, indexing cutover, real contact delivery, old-URL redirects, and email signatures.
+- Hosting is active at the standalone GitHub Pages URL. The contact form is enabled and its handler responds to a health request; inbox delivery requires a separate check.
+- Removed six unused preview scripts/styles, internal editorial comments, and obsolete preview manifest metadata.
+- Pending: domain DNS/HTTPS, indexing cutover, old-URL redirects, and final-domain email signatures.
 
 ## Maintenance
 

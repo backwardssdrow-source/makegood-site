@@ -74,7 +74,7 @@ body[data-audience=individual] .detail-summary{border-top-color:var(--gold)}
 @media(max-width:900px){.maturity-grid{grid-template-columns:1fr;gap:24px}.stage-band{padding-block:36px}}
 @media(forced-colors:active){.button,.filter,.footer-links a{border-color:ButtonText}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline-color:Highlight;box-shadow:none}}
 
-/* Homepage refinement. No biography, employer badge, or case study. Combined-tenure total remains a review placeholder. */
+/* Homepage layout. */
 .home-experience{background:var(--olive-wash);border-block:1px solid var(--olive);padding-block:60px}
 .experience-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.25fr);gap:64px;align-items:start}
 .experience-intro h2{font-size:clamp(1.75rem,3vw,2.375rem);max-width:18ch;margin-bottom:24px}
@@ -97,7 +97,7 @@ body[data-audience=individual] .detail-summary{border-top-color:var(--gold)}
 @media(max-width:650px){.experience-item h3{font-size:1.375rem}.home-process-step h3{font-size:1.5rem}.experience-layout{gap:28px}.home-experience{padding-block:36px}}
 @media print{.home-experience{padding-block:25px}.experience-layout{grid-template-columns:1fr}.home-process-grid{grid-template-columns:1fr}.experience-item,.home-process-step{break-inside:avoid}}
 
-/* Combined professional-experience placeholder, pending founder confirmation. */
+/* Combined professional experience. */
 .experience-intro h2.experience-tenure{max-width:100%;margin-bottom:24px}
 .experience-years{display:block;font-size:clamp(2.5rem,4.4vw,3.75rem);font-weight:750;line-height:1.15;letter-spacing:-.025em;margin-bottom:14px}
 .experience-description{display:block;font-size:1.5rem;font-weight:600;line-height:1.4;letter-spacing:0;max-width:24ch}
