@@ -28,7 +28,7 @@ The repository is public and GitHub Pages is enabled. The 16 pages and their ass
 5. Change canonical and Open Graph URLs in all HTML pages from the GitHub preview base to `https://makegoodco.com/`. Update the approved indexing setting in HTML and `search_indexing`/`review_only` in `site-manifest.json` together. Verify the final domain before announcing it.
 6. Redirect old PAC-hosted MakeGood pages to corresponding new pages, preserving query strings and hashes. Update email signatures and launch links.
 
-Current canonical/sharing URLs use the standalone preview base. `noindex,nofollow` remains in place until final-domain cutover. No domain connection is claimed by this migration.
+Search visibility was enabled with founder approval on October 13, 2026. All 16 public pages allow indexing and have branded social-image metadata. `sitemap.xml` lists the current canonical URLs. The project-level `robots.txt` will apply when served at a custom-domain root; it does not control the parent github.io host. Canonical, sharing, image, sitemap, and robots URLs still use the active standalone GitHub Pages base. Update them together after verifying the custom domain. No custom-domain connection or completed search-engine indexing is claimed.
 
 ## Contact form and privacy
 
@@ -38,14 +38,15 @@ The UI shows success only after a readable acceptance response with the matching
 
 Private tracker IDs, credentials, and notification configuration belong in the private Apps Script project, never here. Booking and payments are not connected.
 
-## Migration status — October 12, 2026
+## Migration status: October 12, 2026
 
 - Site copied from `backwardssdrow-source/pac-site`, branch `gh-pages`, directory `makegood/`, to this repository's root.
 - Canonical and sharing URLs updated to the standalone preview base.
 - Original PAC deployment remains available during cutover.
 - Hosting is active at the standalone GitHub Pages URL. The contact form is enabled and its handler responds to a health request; inbox delivery requires a separate check.
 - Removed six unused preview scripts/styles, internal editorial comments, and obsolete preview manifest metadata.
-- Pending: domain DNS/HTTPS, indexing cutover, old-URL redirects, and final-domain email signatures.
+- Indexing restrictions were removed with approval on October 13, 2026. Search-engine discovery is not instantaneous or guaranteed.
+- Pending: domain DNS/HTTPS, final-domain metadata and sitemap URLs, old-URL redirects, and final-domain email signatures.
 
 ## Maintenance
 

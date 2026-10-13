@@ -99,3 +99,6 @@ html body[data-page] .filter-status{max-width:65ch}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 @media print{.optional-context>*{display:block!important}.optional-context>summary{list-style:none}}
 
+
+/* Plain-language service labels: retain the service names and scope. */
+.service-descriptor{font-size:1rem;font-weight:500;line-height:1.5;margin-top:-8px;margin-bottom:16px}
