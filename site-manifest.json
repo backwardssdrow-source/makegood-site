@@ -1,7 +1,7 @@
 {
   "revision": "20261008-accessibility-1",
   "review_only": false,
-  "search_indexing": false,
+  "search_indexing": true,
   "inquiry_sends": true,
   "booking_connected": false,
   "payment_connected": false,
@@ -154,8 +154,9 @@
       "revision": "20261008-accessibility-1"
     }
   },
-  "editorial_revision": "20261009-community-pathways-1",
+  "editorial_revision": "20261013-public-launch-1",
   "contact_revision": "20261012-contact-1",
   "launch_cleanup_revision": "20261012-launch-cleanup-1",
-  "public_cleanup_revision": "20261012-public-cleanup-1"
+  "public_cleanup_revision": "20261012-public-cleanup-1",
+  "public_launch_revision": "20261013-public-launch-1"
 }
