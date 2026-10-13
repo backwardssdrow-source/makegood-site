@@ -54,3 +54,8 @@ body[data-page="index.html"] .actions{align-items:center;gap:12px 24px}
   .home-service,.home-people-intro{break-inside:avoid}
   .home-services,.home-people{padding-block:20px}
 }
+
+/* Final feedback: global context and an early, compact why-now section. */
+body[data-page="index.html"] .hero .home-global{max-width:52ch;margin-bottom:28px}
+.home-context{padding-block:32px}
+.home-context .text-link{gap:8px}
