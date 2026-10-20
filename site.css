@@ -1,5 +1,5 @@
 /* Separate documents remain unchanged. Compact mobile navigation is a disclosure, not a single-page router. */
-@import url("site-base.css?v=20261008-accessibility-1");
+/* Base styles load directly before this sheet in every document. */
 
 body[data-page="index.html"]{display:flex;flex-direction:column;min-height:100svh}
 body[data-page="index.html"]>main{flex:1}
@@ -25,13 +25,11 @@ body[data-page="index.html"]>main{flex:1}
   .menu-ready .site-header .navlinks{display:none;position:absolute;top:100%;left:0;right:0;flex-basis:auto;max-height:calc(100dvh - var(--nav-h) - 16px);overflow:auto;padding:12px 20px 20px;border-bottom:1px solid var(--olive);background:var(--manila-wash)}
   .menu-ready .site-header .navlinks.open{display:flex;flex-direction:column;align-items:stretch;gap:4px}
   body[data-page="index.html"] .hero{padding-block:32px 36px;gap:0}
-  body[data-page="index.html"] .hero .brand-stage{display:none}
   body[data-page="index.html"] .hero .lede{margin-bottom:24px}
   .home-footer{padding-block:12px;background:var(--manila-wash)}
   .home-footer>.wrap{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .home-footer .footer-main{order:2}
   .home-footer .footer-links{display:flex;width:auto}
-  .home-footer .footer-links a:not([href="contact.html"]):not([href="privacy.html"]){display:none}
   .home-footer .footer-links a{font-size:1rem;line-height:1.5;padding:8px 0;min-height:44px}
   .home-footer .footer-bottom{order:1;flex-direction:row;align-items:center;margin:0;padding:0;border:0}
 }
@@ -102,3 +100,20 @@ html body[data-page] .filter-status{max-width:65ch}
 
 /* Plain-language service labels: retain the service names and scope. */
 .service-descriptor{font-size:1rem;font-weight:500;line-height:1.5;margin-top:-8px;margin-bottom:16px}
+
+/* Phone navigation keeps the contact route visible and preserves separate pages. */
+.header-contact { display: none; }
+@media screen and (max-width: 900px) {
+  html body[data-page] .site-header .nav-wrap { gap: 10px; min-height: 88px; padding-block: 10px; }
+  .site-header .brand img { width: 80px; }
+  .header-contact { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin-left: auto; padding: 8px 12px; border: 1px solid var(--charcoal); border-radius: 7px; background: var(--blush); color: var(--charcoal); font-size: 1rem; font-weight: 500; line-height: 1.5; text-decoration: none; }
+  .header-contact:hover { background: var(--sunrise-wash); }
+  .menu-ready .site-header .menu-toggle { margin-left: 0; min-width: 68px; padding-inline: 10px; }
+  html body[data-page] .home-footer > .wrap { display: block; }
+  html body[data-page] .home-footer .footer-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 20px; width: 100%; }
+  html body[data-page] .home-footer .footer-bottom { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--olive); }
+}
+@media screen and (max-width: 360px) {
+  html body[data-page] .site-header .nav-wrap { gap: 8px; }
+  .header-contact { padding-inline: 10px; }
+}

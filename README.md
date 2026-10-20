@@ -51,3 +51,12 @@ Private tracker IDs, credentials, and notification configuration belong in the p
 ## Maintenance
 
 Edit current HTML/CSS/JS directly. Preserve service scope, prices, and founding-rate terms unless a change is requested. Stylesheet order is intentional: inspect existing links before changing overrides. Check keyboard navigation, mobile reflow, enlarged text, and root/service-page relative links after changes. Do not regenerate current pages from old preview bundles.
+
+
+## Mobile update: October 20, 2026
+
+The homepage provides a brief introduction, three service paths, a shared founder introduction, and a conversation invitation. Full service scope, fees, approach, and founder bios remain on their separate pages. The primary homepage action leads to the existing contact page; the mobile header also keeps a direct contact link visible.
+
+Keep the original Sunrise artwork visible on phones. The compact logo panel wraps when visitors enlarge text. Each page loads `site-base.css` directly before `site.css`, with `home.css` last on the homepage. Update stylesheet revision strings together when changing shared rules.
+
+Travis's About bio uses his selected Option 2. Responsive checks covered every page at narrow phone width, the homepage at phone/tablet/desktop widths, 200% text, menu disclosure/Escape, the no-JavaScript navigation fallback, and links to contact and filtered service details. No production contact inquiry was submitted during these checks.
