@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://backwardssdrow-source.github.io/makegood-site/sitemap.xml
+Sitemap: https://makegoodco.com/sitemap.xml

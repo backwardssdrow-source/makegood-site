@@ -15,7 +15,7 @@ Run `python3 -m http.server 8000` from this directory and open http://localhost:
 Open this repository's **Settings → Pages**. Choose **Deploy from a branch**, **main**, and **/ (root)**, then save. `.nojekyll` supports direct static publishing.
 
 Current published site:
-https://backwardssdrow-source.github.io/makegood-site/
+https://makegoodco.com/
 
 The repository is public and GitHub Pages is enabled. The 16 pages and their assets were reviewed before sharing the standalone site link.
 
@@ -28,7 +28,7 @@ The repository is public and GitHub Pages is enabled. The 16 pages and their ass
 5. Change canonical and Open Graph URLs in all HTML pages from the GitHub preview base to `https://makegoodco.com/`. Update the approved indexing setting in HTML and `search_indexing`/`review_only` in `site-manifest.json` together. Verify the final domain before announcing it.
 6. Redirect old PAC-hosted MakeGood pages to corresponding new pages, preserving query strings and hashes. Update email signatures and launch links.
 
-Search visibility was enabled with founder approval on October 13, 2026. All 16 public pages allow indexing and have branded social-image metadata. `sitemap.xml` lists the current canonical URLs. The project-level `robots.txt` will apply when served at a custom-domain root; it does not control the parent github.io host. Canonical, sharing, image, sitemap, and robots URLs still use the active standalone GitHub Pages base. Update them together after verifying the custom domain. No custom-domain connection or completed search-engine indexing is claimed.
+Search visibility was enabled with founder approval on October 13, 2026. All 16 public pages allow indexing and have branded social-image metadata. The custom domain and HTTPS were verified on October 20. Canonical, sharing, image, sitemap, and robots URLs now use `https://makegoodco.com/`. Completed search-engine indexing is not claimed.
 
 ## Contact form and privacy
 
@@ -46,7 +46,7 @@ Private tracker IDs, credentials, and notification configuration belong in the p
 - Hosting is active at the standalone GitHub Pages URL. The contact form is enabled and its handler responds to a health request; inbox delivery requires a separate check.
 - Removed six unused preview scripts/styles, internal editorial comments, and obsolete preview manifest metadata.
 - Indexing restrictions were removed with approval on October 13, 2026. Search-engine discovery is not instantaneous or guaranteed.
-- Pending: domain DNS/HTTPS, final-domain metadata and sitemap URLs, old-URL redirects, and final-domain email signatures.
+- October 20: domain DNS/HTTPS and final-domain metadata/sitemap URLs are complete. Old-URL redirects and final-domain email signatures remain separate follow-ups.
 
 ## Maintenance
 
@@ -60,3 +60,9 @@ The homepage provides a brief introduction, three service paths, a shared founde
 Keep the original Sunrise artwork visible on phones. The compact logo panel wraps when visitors enlarge text. Each page loads `site-base.css` directly before `site.css`, with `home.css` last on the homepage. Update stylesheet revision strings together when changing shared rules.
 
 Travis's About bio uses his selected Option 2. Responsive checks covered every page at narrow phone width, the homepage at phone/tablet/desktop widths, 200% text, menu disclosure/Escape, the no-JavaScript navigation fallback, and links to contact and filtered service details. No production contact inquiry was submitted during these checks.
+
+## Sharing preview: October 20, 2026
+
+All 16 pages share the versioned `makegood-social-20261020.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The previous social image remains available for older references.
+
+The homepage social title is “More human ways of working.” Inner pages retain their individual titles. Social metadata is static in each HTML head. Keep image URLs, dimensions, type, and alternative text consistent when replacing the artwork; use a fresh image filename. Messaging apps may retain cached page metadata or previews, so publication does not force already-sent messages to update.
