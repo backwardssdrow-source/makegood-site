@@ -63,6 +63,6 @@ Travis's About bio uses his selected Option 2. Responsive checks covered every p
 
 ## Sharing preview: October 20, 2026
 
-All 16 pages share the versioned `makegood-social-20261020.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The previous social image remains available for older references.
+All 16 pages share the versioned `makegood-social-20261020-clean.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The latest preview uses a clean cream background without the decorative frame. Previous social images remain available for older references.
 
 The homepage social title is “More human ways of working.” Inner pages retain their individual titles. Social metadata is static in each HTML head. Keep image URLs, dimensions, type, and alternative text consistent when replacing the artwork; use a fresh image filename. Messaging apps may retain cached page metadata or previews, so publication does not force already-sent messages to update.
