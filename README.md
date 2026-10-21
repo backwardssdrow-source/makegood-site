@@ -61,8 +61,8 @@ Keep the original Sunrise artwork visible on phones. The compact logo panel wrap
 
 Travis's About bio uses his selected Option 2. Responsive checks covered every page at narrow phone width, the homepage at phone/tablet/desktop widths, 200% text, menu disclosure/Escape, the no-JavaScript navigation fallback, and links to contact and filtered service details. No production contact inquiry was submitted during these checks.
 
-## Sharing preview: October 20, 2026
+## Sharing preview: October 21, 2026
 
-All 16 pages share the versioned `makegood-social-20261020-color.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The latest preview pairs a cream logo panel with a larger pink field behind the tagline. The straight color split adds warmth without a decorative frame. Previous social images remain available for older references.
+All 16 pages share the versioned `makegood-social-20261021.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The latest preview pairs a cream logo panel with a larger pink field behind the tagline. The straight color split adds warmth; the lettering has no decorative underline or frame. Previous social images remain available for older references.
 
 The homepage social title is “More human ways of working.” Inner pages retain their individual titles. Social metadata is static in each HTML head. Keep image URLs, dimensions, type, and alternative text consistent when replacing the artwork; use a fresh image filename. Messaging apps may retain cached page metadata or previews, so publication does not force already-sent messages to update.
