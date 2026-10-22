@@ -36,7 +36,7 @@ Search visibility was enabled with founder approval on October 13, 2026. All 16 
 
 The UI shows success only after a readable acceptance response with the matching inquiry ID; acceptance does not prove inbox receipt. Retries with unchanged details reuse the inquiry ID after an uncertain response. Inquiry content remains in page memory rather than localStorage. The form includes a privacy notice, Privacy link, and public email fallback. Keep visitor-facing availability language accurate until delivery is verified.
 
-Private tracker IDs, credentials, and notification configuration belong in the private Apps Script project, never here. Booking and payments are not connected.
+Private tracker IDs, credentials, and notification configuration belong in the private Apps Script project, never here. The contact page links to the joint Google Calendar booking page. Payments are not connected.
 
 ## Migration status: October 12, 2026
 
@@ -66,3 +66,9 @@ Travis's About bio uses his selected Option 2. Responsive checks covered every p
 All 16 pages share the versioned `makegood-social-20261021.png` (1200 × 630). Its editable SVG preserves the original Sunrise logo paths and includes outlined Inter lettering, so exports do not require a local font installation. `apple-touch-icon.png` supplies a matching 180 × 180 icon. The latest preview pairs a cream logo panel with a larger pink field behind the tagline. The straight color split adds warmth; the lettering has no decorative underline or frame. Previous social images remain available for older references.
 
 The homepage social title is “More human ways of working.” Inner pages retain their individual titles. Social metadata is static in each HTML head. Keep image URLs, dimensions, type, and alternative text consistent when replacing the artwork; use a fresh image filename. Messaging apps may retain cached page metadata or previews, so publication does not force already-sent messages to update.
+
+## Booking: October 22, 2026
+
+Existing “Start a conversation” links open `contact.html`, which offers a 30-minute Google Meet conversation with LT and Travis or the existing inquiry form. The booking URL is `https://calendar.app.google/EckG6kMjiMWhFNA26`; Google Calendar controls availability and conflicts. The homepage and shared navigation are unchanged. `contact-booking.css` styles only the contact-page booking panel.
+
+Keep `#contact-availability` inside the form, with its visible `<strong>` and `<p>` elements: `site.js` requires this status region to initialize the form and to explain an unavailable submission service. Preserve the form’s existing endpoint, field validation, privacy text, and disabled-until-initialized behavior.

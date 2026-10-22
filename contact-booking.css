@@ -1,0 +1,7 @@
+/* Booking and inquiry are alternative routes on the contact page. */
+.booking-card{margin-top:28px;padding:28px;border:1px solid var(--olive);border-top:4px solid var(--blush);border-radius:10px;background:var(--blush-wash)}
+.booking-card h2{font-size:1.75rem;margin:0 0 12px}
+.booking-card p{font-size:1.0625rem;line-height:1.6;margin-bottom:18px;max-width:40ch}
+.booking-card .booking-meta{margin:12px 0 0;font-size:.9375rem}
+#contact-availability h2 strong{font-weight:inherit}
+@media(max-width:650px){.booking-card{padding:22px}.booking-card .button{width:100%}}
